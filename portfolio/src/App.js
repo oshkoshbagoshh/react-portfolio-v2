@@ -1,17 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
-import { Modal } from 'bootstrap';
+import React from "react";
+import PortfolioContainer from "./components/PortfolioContainer";
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import { useState } from "react";
 
-function App() {
+const App = () => {
+  const [currentPage, setCurrentPage] = useState("About");
   return (
-    <div className="App">
-   
-
-    <h1> Hello world  </h1>
-
-
+    <div>
+      <Header currentPage={currentPage} setCurrentPage={setCurrentPage} />
+      <PortfolioContainer
+        currentPage={currentPage}
+        setCurrentPage={setCurrentPage}
+      />
+      <Footer />
     </div>
   );
+};
 
-}
 export default App;
