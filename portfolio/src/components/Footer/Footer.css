@@ -1,10 +1,11 @@
 #icon {
-    color: #140a04;
+    color: lapiz-lazuli;
   }
   
   #icon:hover {
-    color: #a75707;
+    color: #073fa7;
     cursor: pointer;
+    /* TODO: add in zoom logic  */
   }
   
   @-webkit-keyframes pop-on-hover {

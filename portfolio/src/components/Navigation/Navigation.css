@@ -1,0 +1,35 @@
+/* CSS for Navigation Stylinks  */
+.nav {
+    display: flex;
+    list-style: none;
+    width: 40vw;
+    justify-content: space-between;
+  }
+  
+  #nav-link:visited {
+    text-decoration: none;
+    color: rgb(219, 37, 37);
+  }
+  
+  #nav-link.active {
+    color: rgb(110, 140, 238);
+    display: flex;
+    justify-content: end;
+  }
+  
+  #nav-link {
+    display: flex;
+    justify-content: end;
+    font-size: 30px;
+  }
+  .nav:hover {
+    color: rgb(110, 210, 238);
+    cursor: pointer
+  }
+  
+  @media (max-width: 589px) {
+    .nav {
+      flex-direction: column;
+    }
+  }
+  
