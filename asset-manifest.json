@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-portfolio-v2/static/css/main.3a42c2b4.css",
+    "main.js": "/react-portfolio-v2/static/js/main.4ed4a3be.js",
+    "static/media/Flavorscapes.png": "/react-portfolio-v2/static/media/Flavorscapes.5f40b42f1977a10491c5.png",
+    "static/media/recipe_voyage.png": "/react-portfolio-v2/static/media/recipe_voyage.ea7f0f169ea561e51c49.png",
+    "static/media/18-nosql-homework-demo.gif": "/react-portfolio-v2/static/media/18-nosql-homework-demo.ecdafe771ac3cfb84690.gif",
+    "static/media/me.jpg": "/react-portfolio-v2/static/media/me.8ff6f19379d38f4b5b23.jpg",
+    "static/media/Resume.pdf": "/react-portfolio-v2/static/media/Resume.61e4de3df7621e693025.pdf",
+    "static/media/jate.png": "/react-portfolio-v2/static/media/jate.ad20b466281a84649573.png",
+    "index.html": "/react-portfolio-v2/index.html",
+    "main.3a42c2b4.css.map": "/react-portfolio-v2/static/css/main.3a42c2b4.css.map",
+    "main.4ed4a3be.js.map": "/react-portfolio-v2/static/js/main.4ed4a3be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3a42c2b4.css",
+    "static/js/main.4ed4a3be.js"
+  ]
+}
