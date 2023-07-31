@@ -1,15 +1,16 @@
 /* index styles */
 
-/* #root { */
-/*   display: flex; */
-/*   flex-direction: column; */
-/*   justify-content: center; */
-/*   align-items: center; */
-/*   height: 100vh; */
-/*   width: 100vw; */
-/*   background-color: #000000; */
-/*   color: #ffffff; */
-/* } */
+root {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #000000;
+  color: #ffffff;
+} */
 
 body {
   margin: 0;
@@ -18,6 +19,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  
 }
 a {
   text-decoration: none;
@@ -31,6 +34,7 @@ a:hover {
 h1,
 p {
   color: #322217;
+
 }
 
 code {

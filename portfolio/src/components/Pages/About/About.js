@@ -1,25 +1,23 @@
 import React from "react";
 import "./About.css";
-import Me from "../../../images/Me.jpg";
+import Me from "../../../images/me.jpg";
 import CardMedia from "@mui/material/CardMedia";
 
 export default function About() {
   return (
     <>
-      <div className="image-container">
+      {/* <div className="image-container">
         <CardMedia
           component="img"
           className="color-img"
           style={{
-            height: "auto",
-            width: "50%",
-            margin: "0 auto",
-            paddingTop: "20px",
           }}
           image={Me}
           alt="About Me"
         />
-      </div>
+      </div> */}
+
+      {/* TODO: INSERT IMAGE HERE  */}
 
       <div style={{ width: "70%", margin: "0 auto" }}>
         <h1 id="about-me-title">About Me</h1>

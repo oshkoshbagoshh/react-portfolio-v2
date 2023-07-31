@@ -1,14 +1,20 @@
 /* CSS for Navigation Stylinks  */
 .nav {
+   /* top: 0;
+   left: 0;
+   right: 0px;
+   height: 50px; */
     display: flex;
     list-style: none;
-    width: 40vw;
+    width: 100%;
+    background-color: rgb(6, 9, 9);
+
     justify-content: space-between;
   }
   
   #nav-link:visited {
     text-decoration: none;
-    color: rgb(219, 37, 37);
+    color: rgb(203, 68, 68);
   }
   
   #nav-link.active {
@@ -24,8 +30,11 @@
   }
   .nav:hover {
     color: rgb(110, 210, 238);
-    cursor: pointer
+    cursor: pointer;
+    border-radius: 0%;
   }
+
+
   
   @media (max-width: 589px) {
     .nav {

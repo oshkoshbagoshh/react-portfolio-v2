@@ -1,7 +1,7 @@
 /* Header Stylings */
 /* .Header { */
 .headerParent {
-    background-color: #2660a4ff; 
+    background-color: rgb(1, 6, 12); 
     border: none;
     color: white;
     height: 200px;
@@ -9,13 +9,25 @@
     padding: 2vw;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    /* display: inline-block; */
     justify-content: space-between;
 }
 
 #header-text {
-    font-size: 35px;
+    font-size: 30px;
+    
     font-weight: bold;
-    color: #1f271bff;
+    color: rgb(86, 235, 12);
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border-style: solid;
+    border-color: rgb(86, 235, 12);
+
+    /* display: inline-block; */
 };
 
