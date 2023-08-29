@@ -1,0 +1,4 @@
+4	OPEN	update resume file to newest one		2023-08-29 16:31:10 +0000 UTC
+3	OPEN	create animations / transformative text		2023-08-29 16:30:47 +0000 UTC
+2	OPEN	mail to has the incorrect email address		2023-08-29 16:30:23 +0000 UTC
+1	OPEN	Updated Styling		2023-07-31 02:38:45 +0000 UTC
