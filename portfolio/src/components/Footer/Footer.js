@@ -52,7 +52,7 @@ const Footer = () => {
             className="pop-on-hover"
             sx={{ fontSize: 50 }}
             onClick={(event) =>
-              (window.location.href = "mailto:amirjavadi25.com")
+              (window.location.href = "mailto:amirjavadi25@gmail.com")
             }
           />
         </Grid>
