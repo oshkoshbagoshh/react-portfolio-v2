@@ -5,7 +5,7 @@ import "./Header.css";
 export default function Header({ currentPage, setCurrentPage }) {
   return (
     <div className="headerParent" id="header">
-      <h1 id="header-text> AJ Javadi</h1>
+      <h1> AJ Javadi</h1>
       
       <Navigation currentPage={currentPage} setCurrentPage={setCurrentPage} />
     </div>
